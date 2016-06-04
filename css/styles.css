@@ -1,0 +1,553 @@
+#Test
+{
+position: absolute;	
+width: 60%;
+height: 400px;
+top: 0;
+left: 100px;
+background: red;	
+}
+
+
+#Viewer
+{
+position: absolute;	
+width: 60%;
+height: 400px;
+top: 400px;
+left: 100px;
+background: plum;	
+}
+
+
+.motives_prompt
+{
+position: absolute;
+left: 0;
+right: 0;
+top: -20%;
+bottom: 0;
+width: 400px;
+height: 200px;
+box-shadow: 0 0 15px #888888;
+border:solid 2px rbg(32,32,32);
+margin:auto;	
+}
+
+.motives_prompt input
+{
+width: 80%;
+margin-left: 10%;
+margin-top: 20px;
+height: 30px;
+font-size: 20px;
+padding-left: 22px;
+padding: 6px;
+background: gainsboro;
+outline: none;
+border:none;
+font-family: Inconsolata;	
+}
+
+.motives_prompt .submit
+{
+margin-left: 10%;
+margin-top: 20px;
+width: 40%;
+height: 20px;
+background: black;
+font-size: 16px;
+color: white;
+text-align: center;
+padding: 10px;
+letter-spacing: 3px;
+cursor: pointer;
+}
+
+
+
+
+.motives_page
+{
+position: absolute;
+width: 100%;
+height: 100%;
+left: 0;
+top: 0;
+background: white;
+font-family: "Inconsolata";
+z-index: 2;
+}
+
+
+.motives_page #info
+{
+position: absolute;
+bottom: 2%;
+left: 2%;
+width: auto;
+height: 30px;
+font-size: 30px;	
+color: rgb(64,64,64);
+}
+
+.motives_page #info:hover
+{
+color: darkorange;
+cursor: pointer;	
+}
+
+
+.motives_page #search_results
+{
+position: absolute;
+left: 70%;
+width: 30%;
+top: 36px;
+height: 94%;
+background: white;
+box-shadow: -6px 0 5px #888888;
+z-index: 2;
+}
+
+.motives_page #search_results #field
+{
+position: absolute;
+top: 4%;
+left: 2%;
+width: 94%;
+height: 94%;
+background: rgba(0,255,0,0.12);	
+padding: 4px;
+font-family: Inconsolata;
+}
+
+
+.motives_page #search_results .result
+{
+position: relative;
+color: darkgray;
+margin-left: 5px;
+margin-bottom: 3px;	
+}
+
+.motives_page #search_results .result:hover
+{
+cursor: pointer;
+}
+
+
+.motives_page #search_results .assoc_link
+{
+color: darkblue;	
+font-weight: 600;	
+}
+
+.motives_page #search_results .assoc_link:hover
+{
+color: darkorange;
+}
+
+
+.motives_page #search_results .project_link
+{
+margin-left: 6px;
+color: darkgreen;	
+}
+
+.motives_page #search_results .project_link:hover
+{
+color: red;	
+}
+
+
+
+.motives_page #search_results #exit
+{
+position: absolute;
+left: 10px;
+top: 10px;
+width: 24px;
+height: 24px;
+font-size: 20px;
+font-family: Arial;
+color: darkgrey;
+cursor: pointer;
+}
+
+.motives_page #search_results #exit:hover
+{
+color: orange;	
+}
+
+
+
+.motives_page #association_window
+{
+position: absolute;
+left: 0%;
+width: 30%;
+top: 36px;
+height: 94%;
+background: white;
+box-shadow: 6px 0 5px #888888;
+z-index: 2;	
+}
+
+
+.motives_page #association_window #exit
+{
+position: absolute;
+right: 10px;
+top: 10px;
+width: 24px;
+height: 24px;
+font-size: 20px;
+font-family: Arial;
+color: darkgrey;
+cursor: pointer;
+text-align: right;
+}
+
+.motives_page #association_window #exit:hover
+{
+color: orange;	
+}
+
+
+.motives_page #association_window #field
+{
+position: absolute;
+top: 4%;
+left: 2%;
+width: 94%;
+height: 94%;
+background: rgba(0,255,0,0.12);	
+padding: 4px;
+font-family: Inconsolata;
+}
+
+#association_window textarea
+{
+margin-left: 10%;
+width: 78%;
+background: gainsboro;
+font-size: 14px;
+outline: none;
+border:none;
+padding: 2%;
+}
+
+
+#association_window label
+{
+margin-left: 12%;
+font-family: "Inconsolata";	
+color: rgb(40,40,40);
+font-size: 14px;
+}
+
+
+#association_window input
+{
+margin-bottom: 10px;
+margin-left: 10%;
+width: 78%;
+padding: 2%;
+height: 20px; 	
+background: gainsboro;
+outline: none;
+border:none;
+}
+
+
+
+
+
+.motives_menu
+{
+position: absolute;
+width: 100%;
+height: 32px;
+background: gainsboro;
+border-bottom: solid 1px darkgray;	
+font-family: "Inconsolata";
+}
+
+
+.motives_menu #search
+{
+position: absolute; 
+width: 24%;
+left: 75%;
+top: 0;
+height: 100%;	
+}
+
+.motives_menu #fulltext_search
+{
+margin-left: 10px;
+padding-left: 4px;
+outline: none;
+width: 48%;
+border:solid 1px black;
+background: wheat;
+margin-top: 5px;	
+float: left;
+}
+
+
+
+.motives_menu #tag_search
+{
+margin-left: 10px;
+padding-left: 4px;
+outline: none;
+width: 40%;
+border:solid 1px black;
+background: lightgreen;
+margin-top: 5px;	
+float: left;
+}
+
+
+.motives_block
+{
+width: auto;
+width: auto; 
+height: 24px;
+margin-top: 4px;
+margin-left: 10px;
+float: left;
+padding-left: 5px;
+padding-right: 2px;
+cursor: pointer;
+border-left: solid 1px black;
+}
+
+
+.motives_block:hover
+{
+background: darkorange;
+text-decoration:underline;	
+}
+
+
+
+#select_project
+{
+min-width: 80px;
+height: 75%;
+margin-top: 4px;
+margin-left: 18px;
+outline:none;
+background: gold;	
+}
+
+.association
+{
+position: absolute;
+left: 20px;
+top: 50px;
+width: auto;
+height: 20px;
+background: silver;
+color: rgb(30,30,30);
+padding: 6px;	
+box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+border-radius: 6px; 
+}
+
+
+.association:hover
+{
+background: darkorange;	
+cursor: pointer;
+}
+
+
+#AssociationJSON
+{
+position: absolute;
+width: 70%;
+height: 60%;
+left: 5%;
+top: 10%;
+border:solid 4px black;	
+background: white;
+z-index: 1000;
+font-family: Inconsolata;
+}
+
+#AssociationJSON #exit
+{
+position: absolute;
+right: 1%;
+top: 1%;
+width: 30px;
+height: 30px;
+font-size: 30px;	
+cursor: pointer;
+text-align: right;
+}
+
+
+#AssociationJSON #association_text
+{
+position: absolute;
+top: 7%;
+left: 3%;
+width: 94%;
+height: 80%;
+overflow: hidden;
+}
+
+
+#AssociationJSON #submit
+{
+position: absolute;
+bottom: 1%;
+left: 3%;
+width: 150px;
+height: auto;
+font-size: 20px;
+border:solid 3px black;	
+cursor: pointer;
+text-align: center;
+background: gainsboro;
+padding: 8px;
+}
+
+
+
+
+#AssociationInput
+{
+position: absolute;
+left: 50px;
+top: 5%;
+width: 460px;
+height: 80%;
+z-index: 100;
+background: white;
+box-shadow: 0px 0px 5px 5px #888888;	
+}
+
+
+
+#AssociationInput #exit
+{
+position: relative;
+margin-left: 96%;
+margin-top: 4px;
+font-family: "Arial";
+width: 10%;
+text-align: left;
+cursor: pointer;
+color: darkgray;
+}
+
+
+#AssociationInput #exit:hover
+{
+color: black;	
+}
+
+
+#AssociationInput label
+{
+margin-left: 12%;
+font-family: "Inconsolata";	
+color: rgb(40,40,40);
+font-size: 14px;
+}
+
+
+#AssociationInput input
+{
+margin-bottom: 10px;
+margin-left: 10%;
+width: 78%;
+padding: 2%;
+height: 20px; 	
+background: gainsboro;
+outline: none;
+border:none;
+}
+
+#AssociationInput input[type=file]
+{
+background: darkorange;
+height: 0px;
+width: 0px;	
+margin-top: 20px;
+margin-bottom: 10px;
+display: none;
+
+}
+
+
+#AssociationInput select
+{
+margin-left: 10%;
+width: 78%;
+background: gainsboro;
+outline: none;
+border:none;
+padding: 6px;	
+height: 30px;
+}
+
+
+#AssociationInput option:hover
+{
+background: black;	
+}
+
+#AssociationInput option
+{
+padding: 4px;	
+height: 20px;
+}
+
+
+#AssociationInput textarea
+{
+margin-left: 10%;
+width: 78%;
+background: gainsboro;
+font-size: 14px;
+outline: none;
+border:none;
+padding: 2%;
+height: 20%;
+}
+
+#AssocFulltext
+{
+height: 50%;
+font-size: 18px;	
+}
+
+
+
+#AssociationSubmit
+{
+margin-left: 10%;
+margin-top: 20px;
+width: 40%;
+height: 20px;
+background: black;
+font-size: 16px;
+color: white;
+text-align: center;
+padding: 10px;
+letter-spacing: 3px;
+cursor: pointer;
+}
+
+
+#AssociationSubmit:hover
+{
+background: darkgreen;	
+}
