@@ -1,0 +1,3 @@
+Mit diesem Befehl wird ein Build für alle Plattformen gestartet
+
+electron-packager ./ --all
