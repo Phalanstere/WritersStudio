@@ -24,7 +24,10 @@
   },
   "homepage": "https://github.com/Phalanstere/WritersStudio#readme",
   "dependencies": {
-    "motives": "^0.0.46"
+    "motives": "^0.0.53",
+    "jquery": "^1.8.0",
+    "open": "^0.0.5",
+    "textract": "^1.2.1"
   },
   "devDependencies": {
     "electron-packager": "^7.0.3",

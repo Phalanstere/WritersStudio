@@ -11,7 +11,9 @@
 
     
     <script>
-		var global = 77; 
+		var global = 77;
+		
+		
 	</script>
     
 
@@ -20,12 +22,42 @@
 
 
    <script>
+   	 var $ = require("jquery");
    	 var motives = require("motives");
+   	 var texter	 = require("./lib/texter");  
+   	 
+   	 var Motives,
+   	 	 Texter;	 
+
+    $( document ).ready(function() {
+        Motives = new motives(null, null);  
+   	 	
+   	 	var o = {}; 
+	 	o.editor = '/home/martin/Documents/NewProgramming/MotivesElectron/writers_studio-linux-x64/writers_studio';     
+        Texter = new texter(o, Motives);    
+        
+        Motives.texter = Texter;
+        
+        global = Motives;
+    });
+
+   	 
+   	 /*
+   	
+   	 
+   	 var o = {};
+	 o.db = "./db/motives.db";
+	 o.editor = '/home/martin/Documents/NewProgramming/MotivesElectron/writers_studio-linux-x64/writers_studio';
+
+	 var t = new texter(o);
+   	
+   	 
+   	 global = t;
+   	 */
    	 
    	 if (motives) console.log("Motives eingelesen");
    </script>
    
-    <script src="menu.js"></script>   
 	
   </body>
 </html>
