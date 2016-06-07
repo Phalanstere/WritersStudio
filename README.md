@@ -22,5 +22,8 @@ But it could be also useful for academics and researchers - anybody in need of a
 ##Desktop Applications
 
 
-[Linuxs 32 bit](https://github.com/Phalanstere/WritersStudioLinux_32bit)
-[Linuxs 64 bit](https://github.com/Phalanstere/WritersStudioLinux_64bit)
+[Linux 32 bit](https://github.com/Phalanstere/WritersStudioLinux_32bit)
+
+[Linux 64 bit](https://github.com/Phalanstere/WritersStudioLinux_64bit)
+
+[Windows 32 bit](https://github.com/Phalanstere/WritersStudioWindows_32bit)
