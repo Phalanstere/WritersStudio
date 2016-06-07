@@ -21,6 +21,30 @@ But it could be also useful for academics and researchers - anybody in need of a
 
 ##Desktop Applications
 
+Since the electron packager is installed, you can create your application package yourself.
+Just type into the console
+
+
+```javascript
+
+electron-packager . app --platform win32 --arch x64 
+// this is for windows 64 bit 
+
+electron-packager . app --platform win32 --arch ia32
+// this is for windows 32 bit 
+
+electron-packager . app --platform linux --arch ia32
+// this is for linux 32 bit
+
+electron-packager . app --platform linux --arch x64
+// this is for linux 64 bit
+
+
+electron-packager ./ --all
+// this is for all the platforms, including Macintosh
+
+``` 
+
 
 [Linux 32 bit](https://github.com/Phalanstere/WritersStudioLinux_32bit)
 
