@@ -1,6 +1,6 @@
 # WritersStudio
 
-##Description
+##Purpose
 
  writer's tool to create associative mindmaps.
 
@@ -17,3 +17,10 @@ If you click on it, the respective file will be launched (in your text editor, p
 So basically it is a tool that lets you manage great amount of i9nformation, perfect for a writer who takes care of a lot of characters. 
 But it could be also useful for academics and researchers - anybody in need of a mtea adminstration tool.      
 
+
+
+##Desktop Applications
+
+
+[Linuxs 32 bit](https://github.com/Phalanstere/WritersStudioLinux_32bit)
+[Linuxs 64 bit](https://github.com/Phalanstere/WritersStudioLinux_64bit)
