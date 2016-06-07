@@ -1,6 +1,6 @@
 {
   "name": "writers_studio",
-  "version": "1.0.0",
+  "version": "0.0.54",
   "description": "A tool for writers",
   "main": "main.js",
   "scripts": {
