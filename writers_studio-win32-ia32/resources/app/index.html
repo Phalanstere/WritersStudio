@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Writers Studio</title>
+
+    	
+    <link href="http://fonts.googleapis.com/css?family=Inconsolata:400,700" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="./css/styles.css">
+    
+
+    
+    <script>
+		var global = 77;
+		
+		
+	</script>
+    
+	
+    
+  </head>
+
+
+   <script>
+   /*
+   var menus = require('electron-menus');
+   var util = require('util');
+   menus.set(__dirname + '/index.html');
+   */
+
+   
+   
+   	 var $ = require("jquery");
+   	 var motives = require("motives");
+   	 var texter	 = require("./lib/texter");  
+   	 
+   	 var Motives,
+   	 	 Texter;	 
+
+    $( document ).ready(function() {
+        Motives = new motives(null, null);  
+   	 	
+   	 	var o = {}; 
+	 	o.editor = '/home/martin/Documents/NewProgramming/MotivesElectron/writers_studio-linux-x64/writers_studio';     
+        Texter = new texter(o, Motives);    
+        
+        Motives.texter = Texter;
+        
+        global = Motives;
+    });
+
+   	 
+   	 /*
+   	
+   	 
+   	 var o = {};
+	 o.db = "./db/motives.db";
+	 o.editor = '/home/martin/Documents/NewProgramming/MotivesElectron/writers_studio-linux-x64/writers_studio';
+
+	 var t = new texter(o);
+   	
+   	 
+   	 global = t;
+   	 */
+   	 
+   	 if (motives) console.log("Motives eingelesen");
+   </script>
+   
+   <script src = "menu.js"></script>
+   
+	
+  
+</html>
