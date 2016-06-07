@@ -5,7 +5,7 @@
     <title>Writers Studio</title>
 
     	
-    <link href='http://fonts.googleapis.com/css?family=Inconsolata:400,700' rel='stylesheet' type='text/css'>
+    <link href="http://fonts.googleapis.com/css?family=Inconsolata:400,700" rel="stylesheet" type="text/css">
     <link rel="stylesheet" type="text/css" href="./css/styles.css">
     
 
@@ -16,12 +16,20 @@
 		
 	</script>
     
-
+	
     
   </head>
 
 
    <script>
+   /*
+   var menus = require('electron-menus');
+   var util = require('util');
+   menus.set(__dirname + '/index.html');
+   */
+
+   
+   
    	 var $ = require("jquery");
    	 var motives = require("motives");
    	 var texter	 = require("./lib/texter");  
@@ -58,6 +66,8 @@
    	 if (motives) console.log("Motives eingelesen");
    </script>
    
+   <script src = "menu.js"></script>
+   
 	
-  </body>
+  
 </html>
