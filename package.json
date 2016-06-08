@@ -1,13 +1,11 @@
 {
   "name": "writers_studio",
-  "version": "0.0.54",
+  "version": "0.0.58",
   "description": "A tool for writers",
   "main": "main.js",
   "scripts": {
     "test": "test.js",
-    "start": "electron .",
-    "build": "electron-packager . MyApp",
-    "package": "electron-packager ./ Writer --all --out ~/Desktop/SoundMachine --version 0.30.2 --overwrite --icon=./app/img/app-icon.icns"
+    "start": "electron ."
   },
   "repository": {
     "type": "git",
@@ -26,12 +24,11 @@
   "dependencies": {
     "electron-menus": "^0.1.0",
     "jquery": "^1.8.0",
-    "motives": "^0.0.54",
+    "motives": "^0.0.58",
     "open": "^0.0.5",
     "textract": "^1.2.1"
   },
   "devDependencies": {
-    "electron-packager": "^7.0.3",
     "electron-prebuilt": "^1.2.1"
   }
 }

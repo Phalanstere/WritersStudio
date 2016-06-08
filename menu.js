@@ -69,6 +69,36 @@ const template = [
             focusedWindow.webContents.toggleDevTools();
         }
       },
+      {
+      label: 'Toggle Overlay',
+      accelerator: process.platform === 'darwin' ? 'Ctrl+Command+O' : 'F12',
+      click(item, focusedWindow) {
+        Texter.toggle_overlay(); 
+        }    
+      },
+      {
+      label: 'Wikipedia',    
+      accelerator: process.platform === 'darwin' ? 'Alt+Command+I' : 'Ctrl+Shift+W',
+      click(item, focusedWinow) {
+          Texter.trigger_wikipedia();
+        }
+      },
+      {
+      label: 'DWDS',
+      accelerator: process.platform === 'darwin' ? 'Alt+Command+I' : 'Ctrl+Shift+D',
+      click(item, focusedWindow) {
+        Texter.trigger_dwds();
+        }
+          
+      },
+      {
+      label: 'Online Etymology',
+      accelerator: process.platform === 'darwin' ? 'Alt+Command+I' : 'Ctrl+Shift+E',
+      click(item, focusedWindow) {
+        Texter.trigger_etymology();
+        }          
+      },
+      
     ]
   },
   {
