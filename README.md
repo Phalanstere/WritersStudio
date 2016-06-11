@@ -39,6 +39,8 @@ electron-packager . app --platform linux --arch ia32
 electron-packager . app --platform linux --arch x64
 // this is for linux 64 bit
 
+electron-packager ./ --platform darwin --arch x64
+// This is for OSX
 
 electron-packager ./ --all
 // this is for all the platforms, including Macintosh
