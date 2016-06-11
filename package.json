@@ -1,6 +1,6 @@
 {
   "name": "writers_studio",
-  "version": "0.0.58",
+  "version": "0.0.59",
   "description": "A tool for writers",
   "main": "main.js",
   "scripts": {
@@ -24,7 +24,7 @@
   "dependencies": {
     "electron-menus": "^0.1.0",
     "jquery": "^1.8.0",
-    "motives": "^0.0.58",
+    "motives": "^0.0.59",
     "open": "^0.0.5",
     "textract": "^1.2.1"
   },
